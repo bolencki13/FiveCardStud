@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		402F2B121C359B4000D8DBDE /* PokerHandChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 402F2B111C359B4000D8DBDE /* PokerHandChecker.m */; };
 		409186051C345E41008B5276 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 409186041C345E41008B5276 /* main.m */; };
 		409186081C345E41008B5276 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 409186071C345E41008B5276 /* AppDelegate.m */; };
 		4091860B1C345E41008B5276 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4091860A1C345E41008B5276 /* ViewController.m */; };
 		4091860E1C345E41008B5276 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4091860C1C345E41008B5276 /* Main.storyboard */; };
 		409186101C345E41008B5276 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4091860F1C345E41008B5276 /* Assets.xcassets */; };
 		409186131C345E41008B5276 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 409186111C345E41008B5276 /* LaunchScreen.storyboard */; };
+		4091861C1C345E74008B5276 /* FlatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4091861B1C345E74008B5276 /* FlatButton.m */; };
+		4091861F1C346A8E008B5276 /* TriangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4091861E1C346A8E008B5276 /* TriangleView.m */; };
+		409186241C34842C008B5276 /* club.png in Resources */ = {isa = PBXBuildFile; fileRef = 409186201C34842C008B5276 /* club.png */; };
+		409186251C34842C008B5276 /* diamond.png in Resources */ = {isa = PBXBuildFile; fileRef = 409186211C34842C008B5276 /* diamond.png */; };
+		409186261C34842C008B5276 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 409186221C34842C008B5276 /* heart.png */; };
+		409186271C34842C008B5276 /* spade.png in Resources */ = {isa = PBXBuildFile; fileRef = 409186231C34842C008B5276 /* spade.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		402F2B101C359B4000D8DBDE /* PokerHandChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PokerHandChecker.h; sourceTree = "<group>"; };
+		402F2B111C359B4000D8DBDE /* PokerHandChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PokerHandChecker.m; sourceTree = "<group>"; };
 		409186001C345E41008B5276 /* FiveCardStud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FiveCardStud.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		409186041C345E41008B5276 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		409186061C345E41008B5276 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +35,14 @@
 		4091860F1C345E41008B5276 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		409186121C345E41008B5276 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		409186141C345E41008B5276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4091861A1C345E74008B5276 /* FlatButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlatButton.h; sourceTree = "<group>"; };
+		4091861B1C345E74008B5276 /* FlatButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlatButton.m; sourceTree = "<group>"; };
+		4091861D1C346A8E008B5276 /* TriangleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangleView.h; sourceTree = "<group>"; };
+		4091861E1C346A8E008B5276 /* TriangleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriangleView.m; sourceTree = "<group>"; };
+		409186201C34842C008B5276 /* club.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = club.png; sourceTree = "<group>"; };
+		409186211C34842C008B5276 /* diamond.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diamond.png; sourceTree = "<group>"; };
+		409186221C34842C008B5276 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
+		409186231C34842C008B5276 /* spade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spade.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +79,13 @@
 				409186071C345E41008B5276 /* AppDelegate.m */,
 				409186091C345E41008B5276 /* ViewController.h */,
 				4091860A1C345E41008B5276 /* ViewController.m */,
+				402F2B101C359B4000D8DBDE /* PokerHandChecker.h */,
+				402F2B111C359B4000D8DBDE /* PokerHandChecker.m */,
+				4091861D1C346A8E008B5276 /* TriangleView.h */,
+				4091861E1C346A8E008B5276 /* TriangleView.m */,
+				4091861A1C345E74008B5276 /* FlatButton.h */,
+				4091861B1C345E74008B5276 /* FlatButton.m */,
+				409186281C348431008B5276 /* Images */,
 				4091860C1C345E41008B5276 /* Main.storyboard */,
 				4091860F1C345E41008B5276 /* Assets.xcassets */,
 				409186111C345E41008B5276 /* LaunchScreen.storyboard */,
@@ -77,6 +101,17 @@
 				409186041C345E41008B5276 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		409186281C348431008B5276 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				409186201C34842C008B5276 /* club.png */,
+				409186211C34842C008B5276 /* diamond.png */,
+				409186221C34842C008B5276 /* heart.png */,
+				409186231C34842C008B5276 /* spade.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +171,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				409186271C34842C008B5276 /* spade.png in Resources */,
 				409186131C345E41008B5276 /* LaunchScreen.storyboard in Resources */,
+				409186251C34842C008B5276 /* diamond.png in Resources */,
+				409186241C34842C008B5276 /* club.png in Resources */,
 				409186101C345E41008B5276 /* Assets.xcassets in Resources */,
+				409186261C34842C008B5276 /* heart.png in Resources */,
 				4091860E1C345E41008B5276 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,8 +188,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				402F2B121C359B4000D8DBDE /* PokerHandChecker.m in Sources */,
 				4091860B1C345E41008B5276 /* ViewController.m in Sources */,
 				409186081C345E41008B5276 /* AppDelegate.m in Sources */,
+				4091861F1C346A8E008B5276 /* TriangleView.m in Sources */,
+				4091861C1C345E74008B5276 /* FlatButton.m in Sources */,
 				409186051C345E41008B5276 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +304,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FiveCardStud/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bolencki13.FiveCardStud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -273,6 +316,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FiveCardStud/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bolencki13.FiveCardStud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -298,6 +342,7 @@
 				409186191C345E41008B5276 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
